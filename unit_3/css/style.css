@@ -27,6 +27,30 @@ body {
 	width: 600px;
 }
 
+
+/*site header*/
+
+header {
+	margin: 0 auto;
+	padding: 10px 0px 10px 0px;
+	width: 920px;
+}
+
+#site-logo {
+	text-align: left;
+	width: 250px;
+	margin: 0;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+}
+
+nav a {
+	margin-left: 20px;
+}
+
 h1 {
 	font-family: 'Playfair Display', serif;
 	font-size: 48px;
@@ -99,3 +123,44 @@ ul {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
+
+/*homepage folio gallery*/
+
+#folio-preview-gallery img {
+	height: 300px;
+	width: 250px;
+}
+
+
+
+/*contact form*/
+
+input {
+	width: 300px;
+	height: 40px;
+	display: block;
+	border: none;
+	border-radius: 2px;
+}
+
+input .btn-submit {
+	width: 250px;
+	padding: 10px 10px 10px 10px;
+	border: #A2D6E8 solid 1px;
+	border-radius: 50px;
+	background-color: rgba(0,0,0,0);
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
