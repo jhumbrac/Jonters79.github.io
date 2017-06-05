@@ -1,5 +1,9 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 body {
-	background: url(images/wesson-wang-110739.png);
 	background: #295968;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 18px;
@@ -8,6 +12,7 @@ body {
 	color: white;
 	margin: 0;
 	text-align: center;
+	/*background-image: url('../images/carl-heyerdahl-181868.jpg');*/
 }
 
 #content-wrapper {
@@ -27,19 +32,35 @@ body {
 	width: 600px;
 }
 
+#homepage-hero {
+	background-image: url('../images/carl-heyerdahl-181868.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	margin: 0 0 100px 0;
+}
+
 
 /*site header*/
 
 header {
 	margin: 0 auto;
+	width: 100%;
+	background-color: #fff;
+	height: 50px;
+}
+
+header .content {
 	padding: 10px 0px 10px 0px;
-	width: 920px;
 }
 
 #site-logo {
 	text-align: left;
 	width: 250px;
 	margin: 0;
+	color: #295968;
+	display: inline-block;
+	float:left;
 }
 
 nav {
@@ -49,6 +70,7 @@ nav {
 
 nav a {
 	margin-left: 20px;
+	color: #295968;;
 }
 
 h1 {
@@ -65,8 +87,10 @@ h2 {
 	padding-bottom: 15px;
 }
 
-#site-title {
-	text-align: left;
+#homepage-headline {
+	text-align: center;
+	padding: 150px 0 0 0;
+	font-size: 52px;
 }
 
 /*p {
@@ -78,8 +102,8 @@ h2 {
 
 #slogan {
 	font-style: italic;
-	padding-bottom: 15px;
-	text-align: left;
+	padding: 25px 0 0 0;
+	text-align: center;
 	display: block;
 }
 
@@ -122,6 +146,7 @@ ul {
 	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	display: block;
 }
 
 /*homepage folio gallery*/
@@ -131,7 +156,9 @@ ul {
 	width: 250px;
 }
 
-
+#folio {
+	margin: 50px 0px 50px 0px;
+}
 
 /*contact form*/
 
@@ -139,11 +166,34 @@ input {
 	width: 300px;
 	height: 40px;
 	display: block;
-	border: none;
+	border: 1px solid #295968;
+	border-bottom: 1px solid #38B4BF;
+	background: rgba(256,256,256,0.2);
 	border-radius: 2px;
+	margin: 10px 0px 20px 0px;
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
 }
 
-input .btn-submit {
+input::-webkit-input-placeholder {
+	color: #fff;
+	position: relative;
+	left: 20px;
+}
+
+input[type=submit] {
+	color: #fff;
+	border-radius: 50px;
+	border: 1px solid #A2D6E8;
+	background: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+/*input .btn-submit {
 	width: 250px;
 	padding: 10px 10px 10px 10px;
 	border: #A2D6E8 solid 1px;
@@ -152,11 +202,26 @@ input .btn-submit {
 	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+}*/
+
+input::-input-webkit-placeholder {
+	color: red;
 }
 
+#contact {
+	background-color: #052B37;
+	height: 500px;
+	padding: 100px 0px 20px 0px;
+}
 
+#contact-form {
+	display: block;
+	text-align: center;
+}
 
-
+form {
+	display: inline-block;
+}
 
 
 
