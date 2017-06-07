@@ -4,6 +4,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing:border-box;
 }
 
 body {
@@ -17,7 +18,9 @@ body {
 	text-align: center;
 	/*background-image: url('../images/carl-heyerdahl-181868.jpg');*/
 }
-
+footer {
+	padding:4em 0;
+}
 #content-wrapper {
 	margin: 0 auto;
 	width: 100%;
@@ -147,7 +150,7 @@ p {
 }
 
 #services > .content-inner {
-	width: 100%
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -291,12 +294,12 @@ form {
 .social-icon {
 	color: #fff;
 	font-size: 18px;
-	border-radius: 50px;
-	border: 1px solid #fff;
-	width: 40px;
-	height: 40px;
-	display: inline-block;
-	margin: 15px 15px 20px 10px;
+	/* border-radius: 50px; */
+	/* border: 1px solid #fff; */
+	/* width: 40px; */
+	/* height: 40px; */
+	/* display: inline-block; */
+	text-align: center;
 }
 
 .fa {
